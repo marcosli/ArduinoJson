@@ -10,9 +10,9 @@
 #include <stdint.h>  // for uint8_t
 
 #if defined(__clang__)
-  #pragma clang diagnostic ignored "-Wnon-virtual-dtor"
+#pragma clang diagnostic ignored "-Wnon-virtual-dtor"
 #elif defined(__GNUC__)
-  #pragma gcc diagnostic ignored "-Wnon-virtual-dtor"
+#pragma GCC diagnostic ignored "-Wnon-virtual-dtor"
 #endif
 
 namespace ArduinoJson {
